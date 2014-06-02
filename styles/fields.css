@@ -1,0 +1,191 @@
+.field {
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 6px;
+}
+
+.fieldname {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bold;
+	color: #444;
+	width: 25%;
+	text-align: right;
+	padding-right: 10px;
+    display: inline-block;
+}
+
+.fieldinput {
+	font-family: Verdana, Arial, sans-serif;
+	border: 1px solid #999;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+	padding: 5px 10px;
+	border-radius: 3px;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fieldinput:hover {
+    border-color: #666;
+}
+
+.fieldinput:focus {
+	outline: medium none;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+	border-color: #666;
+}
+
+
+.fielddate {
+    text-align: right;
+}
+
+.fielditem {
+    display: inline-block;
+    display: -webkit-box;
+    display: -moz-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	margin-right: 25%;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+    width: 50%;
+}
+
+.fieldinfo {
+	font-size: smaller;
+	color: #555;
+	margin: 0 25%;
+	padding: 0 11px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.fielderror {
+	margin: 0 25%;
+	text-align: center;
+	padding: 5px;
+	padding-left: 34px;
+	background: #FFC url(../images/error.png) 10px center no-repeat;
+	border-radius: 3px;
+}
+
+.fieldbutton {
+    margin-right: 25%;
+}
+
+input[type="checkbox"].fieldinput {
+	display: none;
+}
+
+input[type="checkbox"].fieldinput + label {
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+
+input[type="checkbox"].fieldinput:disabled + label {
+    cursor: default;
+    color: #BBB;
+}
+
+input[type="checkbox"].fieldinput + label span {
+    display:inline-block;
+    width:19px;
+    height:18px;
+	font-family: Verdana, Arial, sans-serif;
+	border: 1px solid #999;
+	border-radius: 3px;
+    margin: 0 8px 0 0;
+    vertical-align:middle;
+}
+
+input[type="checkbox"].fieldinput:enabled + label:hover span {
+	border-color: #666;
+}
+
+input[type="checkbox"].fieldinput:disabled + label span {
+    background: #DDD;
+    border: 1px solid #CCC;
+}
+
+input[type="checkbox"].fieldinput:checked + label span {
+	background: #DDD url(../images/check.png) 4px 6px no-repeat;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+input[type="file"].fieldinput::-webkit-file-upload-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	border: 1px solid #888;
+	border-radius: 2px;
+	color: #222;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	background: -webkit-linear-gradient(#EEE, #BBB);
+}
+
+select.fieldinput:hover {
+    background: url(../images/select2.png) right 8px center no-repeat;
+}
+
+select.fieldinput {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/select.png) right 8px center no-repeat;
+}
+
+@media all and (max-width: 600px) {
+	.fieldinput {
+		margin-right: 0;
+	}
+
+    .fieldbutton {
+        margin-right: 0;
+    }
+
+	.fieldinfo {
+		margin-right: 0;
+	}
+
+	.fielditem {
+		margin-right: 0;
+	}
+
+	.fielderror {
+		margin-right: 0;
+	}
+
+	input[type="checkbox"].fieldinput + label
+	{
+	 	margin-right: 0;
+	}
+}
