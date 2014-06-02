@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="items.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6086956" vertical-offset="1480" max-vertical-offset="2400">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.142858" vertical-offset="1480" max-vertical-offset="2400">
+              <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
               <folding>
                 <marker date="1363963094000" expanded="true" signature="386:426" placeholder="SELECT code ..items..." />
                 <marker date="1363963094000" expanded="true" signature="463:503" placeholder="SELECT code ..items..." />
@@ -118,54 +118,64 @@
       <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.71428573" vertical-offset="0" max-vertical-offset="10520">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state vertical-scroll-proportion="-6.428571" vertical-offset="0" max-vertical-offset="10940">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1401711562000" expanded="true" signature="154:190" placeholder="SELECT * FRO..errors..." />
-                <marker date="1401711562000" expanded="true" signature="1482:1572" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="1482:1620" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="1794:1916" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="1794:1920" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2025:2126" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2025:2130" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2527:2637" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2527:2685" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2850:2992" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="2850:2996" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="3127:3248" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="3127:3252" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="3536:3786" placeholder="SELECT items..itembookings..." />
-                <marker date="1401711562000" expanded="true" signature="4511:4556" placeholder="UPDATE booki..." />
-                <marker date="1401711562000" expanded="true" signature="5061:5171" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="5473:5590" placeholder="SELECT items..items..." />
-                <marker date="1401711562000" expanded="true" signature="6250:6283" placeholder="SELECT * FRO..users..." />
-                <marker date="1401711562000" expanded="true" signature="6462:6555" placeholder="SELECT * FRO..users..." />
-                <marker date="1401711562000" expanded="true" signature="6717:6747" placeholder="SELECT * FRO..users..." />
-                <marker date="1401711562000" expanded="true" signature="7015:7034" placeholder="SELECT * FRO..users..." />
-                <marker date="1401711562000" expanded="true" signature="7192:7227" placeholder="SELECT * FRO..tags..." />
-                <marker date="1401711562000" expanded="true" signature="7434:7531" placeholder="SELECT tags...itemtags..." />
-                <marker date="1401711562000" expanded="true" signature="7564:7656" placeholder="SELECT booki..itembookings..." />
-                <marker date="1401711562000" expanded="true" signature="8399:8491" placeholder="SELECT booki..itembookings..." />
-                <marker date="1401711562000" expanded="true" signature="8939:9106" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="8939:9110" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="9170:9401" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="9170:9409" placeholder="SELECT booki..bookings..." />
-                <marker date="1401711562000" expanded="true" signature="9688:9736" placeholder="INSERT INTO ..." />
-                <marker date="1401711562000" expanded="true" signature="10159:10206" placeholder="INSERT INTO ..." />
-                <marker date="1401711562000" expanded="true" signature="10458:10496" placeholder="UPDATE items..." />
-                <marker date="1401711562000" expanded="true" signature="10744:10884" placeholder="SELECT booki..bookingevents..." />
-                <marker date="1401711562000" expanded="true" signature="11272:11397" placeholder="SELECT iteme..itemevents..." />
-                <marker date="1401711562000" expanded="true" signature="11454:11605" placeholder="SELECT iteme..itemevents..." />
+                <marker date="1401712606000" expanded="true" signature="619:655" placeholder="SELECT * FRO..errors..." />
+                <marker date="1401712606000" expanded="true" signature="1947:2037" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="1947:2085" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2259:2381" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2259:2385" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2490:2591" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2490:2595" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2992:3102" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="2992:3150" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="3315:3457" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="3315:3461" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="3592:3713" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="3592:3717" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="4001:4251" placeholder="SELECT items..itembookings..." />
+                <marker date="1401712606000" expanded="true" signature="4976:5021" placeholder="UPDATE booki..." />
+                <marker date="1401712606000" expanded="true" signature="5526:5636" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="5938:6055" placeholder="SELECT items..items..." />
+                <marker date="1401712606000" expanded="true" signature="6715:6748" placeholder="SELECT * FRO..users..." />
+                <marker date="1401712606000" expanded="true" signature="6927:7020" placeholder="SELECT * FRO..users..." />
+                <marker date="1401712606000" expanded="true" signature="7182:7212" placeholder="SELECT * FRO..users..." />
+                <marker date="1401712606000" expanded="true" signature="7480:7499" placeholder="SELECT * FRO..users..." />
+                <marker date="1401712606000" expanded="true" signature="7657:7692" placeholder="SELECT * FRO..tags..." />
+                <marker date="1401712606000" expanded="true" signature="7899:7996" placeholder="SELECT tags...itemtags..." />
+                <marker date="1401712606000" expanded="true" signature="8029:8121" placeholder="SELECT booki..itembookings..." />
+                <marker date="1401712606000" expanded="true" signature="8864:8956" placeholder="SELECT booki..itembookings..." />
+                <marker date="1401712606000" expanded="true" signature="9404:9571" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="9404:9575" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="9635:9866" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="9635:9874" placeholder="SELECT booki..bookings..." />
+                <marker date="1401712606000" expanded="true" signature="10153:10201" placeholder="INSERT INTO ..." />
+                <marker date="1401712606000" expanded="true" signature="10624:10671" placeholder="INSERT INTO ..." />
+                <marker date="1401712606000" expanded="true" signature="10923:10961" placeholder="UPDATE items..." />
+                <marker date="1401712606000" expanded="true" signature="11209:11349" placeholder="SELECT booki..bookingevents..." />
+                <marker date="1401712606000" expanded="true" signature="11737:11862" placeholder="SELECT iteme..itemevents..." />
+                <marker date="1401712606000" expanded="true" signature="11919:12070" placeholder="SELECT iteme..itemevents..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/db_config.php">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.714285" vertical-offset="0" max-vertical-offset="700">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/database.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.857143" vertical-offset="0" max-vertical-offset="320">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -177,19 +187,6 @@
             <state vertical-scroll-proportion="-13.428572" vertical-offset="584" max-vertical-offset="64580">
               <caret line="51" column="12" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="12" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.178572" vertical-offset="407" max-vertical-offset="1340">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <marker date="1363869776000" expanded="true" signature="503:734" placeholder="{...}" />
-                <marker date="1363869776000" expanded="true" signature="554:598" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -222,8 +219,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/includes/database.php" />
         <option value="$PROJECT_DIR$/includes/db_config.php" />
+        <option value="$PROJECT_DIR$/includes/database.json" />
+        <option value="$PROJECT_DIR$/includes/database.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -304,7 +303,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -443,7 +442,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1916" height="1058" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -460,7 +459,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -498,8 +497,8 @@
         <state vertical-scroll-proportion="-16.178572" vertical-offset="407" max-vertical-offset="1340">
           <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
-            <marker date="1363869776000" expanded="true" signature="503:734" placeholder="{...}" />
-            <marker date="1363869776000" expanded="true" signature="554:598" placeholder="{...}" />
+            <marker date="1363869776000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1363869776000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -538,58 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.714285" vertical-offset="0" max-vertical-offset="700">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.71428573" vertical-offset="0" max-vertical-offset="10520">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding>
-            <marker date="1401711562000" expanded="true" signature="154:190" placeholder="SELECT * FRO..errors..." />
-            <marker date="1401711562000" expanded="true" signature="1482:1572" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="1482:1620" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="1794:1916" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="1794:1920" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2025:2126" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2025:2130" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2527:2637" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2527:2685" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2850:2992" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="2850:2996" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="3127:3248" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="3127:3252" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="3536:3786" placeholder="SELECT items..itembookings..." />
-            <marker date="1401711562000" expanded="true" signature="4511:4556" placeholder="UPDATE booki..." />
-            <marker date="1401711562000" expanded="true" signature="5061:5171" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="5473:5590" placeholder="SELECT items..items..." />
-            <marker date="1401711562000" expanded="true" signature="6250:6283" placeholder="SELECT * FRO..users..." />
-            <marker date="1401711562000" expanded="true" signature="6462:6555" placeholder="SELECT * FRO..users..." />
-            <marker date="1401711562000" expanded="true" signature="6717:6747" placeholder="SELECT * FRO..users..." />
-            <marker date="1401711562000" expanded="true" signature="7015:7034" placeholder="SELECT * FRO..users..." />
-            <marker date="1401711562000" expanded="true" signature="7192:7227" placeholder="SELECT * FRO..tags..." />
-            <marker date="1401711562000" expanded="true" signature="7434:7531" placeholder="SELECT tags...itemtags..." />
-            <marker date="1401711562000" expanded="true" signature="7564:7656" placeholder="SELECT booki..itembookings..." />
-            <marker date="1401711562000" expanded="true" signature="8399:8491" placeholder="SELECT booki..itembookings..." />
-            <marker date="1401711562000" expanded="true" signature="8939:9106" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="8939:9110" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="9170:9401" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="9170:9409" placeholder="SELECT booki..bookings..." />
-            <marker date="1401711562000" expanded="true" signature="9688:9736" placeholder="INSERT INTO ..." />
-            <marker date="1401711562000" expanded="true" signature="10159:10206" placeholder="INSERT INTO ..." />
-            <marker date="1401711562000" expanded="true" signature="10458:10496" placeholder="UPDATE items..." />
-            <marker date="1401711562000" expanded="true" signature="10744:10884" placeholder="SELECT booki..bookingevents..." />
-            <marker date="1401711562000" expanded="true" signature="11272:11397" placeholder="SELECT iteme..itemevents..." />
-            <marker date="1401711562000" expanded="true" signature="11454:11605" placeholder="SELECT iteme..itemevents..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948">
@@ -610,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/items.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6086956" vertical-offset="1480" max-vertical-offset="2400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.142858" vertical-offset="1480" max-vertical-offset="2400">
+          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
           <folding>
             <marker date="1363963094000" expanded="true" signature="386:426" placeholder="SELECT code ..items..." />
             <marker date="1363963094000" expanded="true" signature="463:503" placeholder="SELECT code ..items..." />
@@ -621,6 +568,66 @@
             <marker date="1363963094000" expanded="true" signature="2189:2234" placeholder="SELECT items..items..." />
             <marker date="1363963094000" expanded="true" signature="2383:2480" placeholder="SELECT tags...itemtags..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/database.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.857143" vertical-offset="0" max-vertical-offset="320">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.428571" vertical-offset="0" max-vertical-offset="10940">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1401712606000" expanded="true" signature="619:655" placeholder="SELECT * FRO..errors..." />
+            <marker date="1401712606000" expanded="true" signature="1947:2037" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="1947:2085" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2259:2381" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2259:2385" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2490:2591" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2490:2595" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2992:3102" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="2992:3150" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="3315:3457" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="3315:3461" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="3592:3713" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="3592:3717" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="4001:4251" placeholder="SELECT items..itembookings..." />
+            <marker date="1401712606000" expanded="true" signature="4976:5021" placeholder="UPDATE booki..." />
+            <marker date="1401712606000" expanded="true" signature="5526:5636" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="5938:6055" placeholder="SELECT items..items..." />
+            <marker date="1401712606000" expanded="true" signature="6715:6748" placeholder="SELECT * FRO..users..." />
+            <marker date="1401712606000" expanded="true" signature="6927:7020" placeholder="SELECT * FRO..users..." />
+            <marker date="1401712606000" expanded="true" signature="7182:7212" placeholder="SELECT * FRO..users..." />
+            <marker date="1401712606000" expanded="true" signature="7480:7499" placeholder="SELECT * FRO..users..." />
+            <marker date="1401712606000" expanded="true" signature="7657:7692" placeholder="SELECT * FRO..tags..." />
+            <marker date="1401712606000" expanded="true" signature="7899:7996" placeholder="SELECT tags...itemtags..." />
+            <marker date="1401712606000" expanded="true" signature="8029:8121" placeholder="SELECT booki..itembookings..." />
+            <marker date="1401712606000" expanded="true" signature="8864:8956" placeholder="SELECT booki..itembookings..." />
+            <marker date="1401712606000" expanded="true" signature="9404:9571" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="9404:9575" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="9635:9866" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="9635:9874" placeholder="SELECT booki..bookings..." />
+            <marker date="1401712606000" expanded="true" signature="10153:10201" placeholder="INSERT INTO ..." />
+            <marker date="1401712606000" expanded="true" signature="10624:10671" placeholder="INSERT INTO ..." />
+            <marker date="1401712606000" expanded="true" signature="10923:10961" placeholder="UPDATE items..." />
+            <marker date="1401712606000" expanded="true" signature="11209:11349" placeholder="SELECT booki..bookingevents..." />
+            <marker date="1401712606000" expanded="true" signature="11737:11862" placeholder="SELECT iteme..itemevents..." />
+            <marker date="1401712606000" expanded="true" signature="11919:12070" placeholder="SELECT iteme..itemevents..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

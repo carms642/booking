@@ -1,5 +1,26 @@
 <?php
-include_once "db_config.php";
+/**
+ * @return mysqli
+ */
+function &get_database()
+{
+	// configuration variables
+	$string = file_get_contents("database.json");
+	$database =json_decode($string,true);
+
+	// check login and password
+	// connect and execute query
+	$db = mysqli_connect($database['host'], $database['username'], $database['password'], $database['name']);
+	if(!$db)
+	{
+		echo "Error";
+	}
+	else if ($db->connect_errno)
+	{
+		echo "Failed to connect to MySQL: ($db->connect_errno) $db->connect_error";
+	}
+	return $db;
+}
 
 /**
  * @param $db mysqli
