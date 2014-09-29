@@ -160,7 +160,7 @@ body {
 
 .tag {
 	font-size: smaller;
-	background-color: #999;
+	background-color: #EEE;
 	border-radius: 2px;
 	margin: 1px 5px 0 0;
 	color: #444 !important;
@@ -187,6 +187,7 @@ body {
 	-webkit-flex: 1 1 200px;
 	-moz-flex: 1 1 200px;
 	-ms-flex: 1 1 200px;
+	flex: 1 1 200px;
 	display: inline-block;
 	white-space: nowrap;
 }
@@ -200,6 +201,7 @@ body {
 	-webkit-flex: 1 1 200px;
 	-moz-flex: 1 1 200px;
 	-ms-flex: 1 1 200px;
+	flex: 1 1 200px;
 	white-space: nowrap;
 }
 
@@ -216,14 +218,14 @@ body {
 }
 
 .tag :link,.tag :visited {
-	color: #444 !important;
+	color: #999 !important;
 	padding: 2px 6px;
 	display: inline-block;
 	border-radius: 2px;
 }
 
 .tag :link:hover {
-	background: #777;
+	background: #CCC;
 	text-decoration: none;
 }
 
@@ -579,12 +581,13 @@ img {
 		display: -ms-flex;
 		display: flex;
 	}
+
 	.details {
 		-webkit-box-orient: vertical;
 		-webkit-flex-flow: column;
 		-moz-box-orient: vertical;
 		-moz-flex-flow: column;
-		-ms-flex-flow: vertical;
+		-ms-flex-flow: column;
 		flex-flow: column;
 	}
 
