@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set('Europe/London');
+
 function can_add_item($booking, $itembookings)
 {
 	$start = strtotime($booking['start']);
@@ -28,6 +31,8 @@ function can_remove($user, $booking, $item)
 	{
 		return false;
 	}
+
+	return true;
 }
 
 function can_collect($user, $booking, $item)
@@ -78,7 +83,7 @@ function can_return($user, $booking, $item)
         }
     }
 
-    // TODO
+    return false;
 }
 
 function can_edit_booking($user, $booking)

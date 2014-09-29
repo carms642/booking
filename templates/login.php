@@ -17,7 +17,7 @@
 			<?php endif; ?>
 			<div style="text-align: center; font-size: smaller;"><a href="password.php">forgotten password?</a></div>
 			<div class="right">
-			<input type="submit" class="book" style="margin-right: 0px;" name="submit" value="Sign in" />
+			<input type="submit" class="book" style="margin-right: 0;" name="submit" value="Sign in" />
 			</div>
 		</form>
 	</div>

@@ -58,10 +58,10 @@ if($_POST['id'])
 		}
 	}
 }
-else if(is_admin($user))
-{
-	$statement = $db->prepare("INSERT INTO users(name, email) VALUES(?,?,?)");
-}
+//else if(is_admin($current_user))
+//{
+//	$statement = $db->prepare("INSERT INTO users(name, email) VALUES(?,?,?)");
+//}
 
 redirect($db, "../user.php?id=$_POST[id]");
 ?>

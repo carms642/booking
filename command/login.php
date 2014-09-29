@@ -45,8 +45,6 @@ if($user['password'])
 	}
 	else
 	{
-		print $user['fails'];
-
 		if($user['fails'])
 		{
 			$fails = $user['fails']+ 1;
